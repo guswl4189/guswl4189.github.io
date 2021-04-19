@@ -2,6 +2,18 @@
 <html>
 <head>
 <meta charset='utf-8'>
+<style>
+h1{text-shadow: 2px 2px 5px grey;}
+h2{text-shadow: 2px 2px 5px grey;}
+.gray{color: rgb(34, 33, 33);}
+.bold{font-weight: bold;}
+table, th, tr, td {
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding: 8px;
+	text-align: center;
+}
+</style>
 </head>
 <body>
 
@@ -15,8 +27,8 @@
 <h2>
     Who I am?
 </h2>
-<p>
-    현재 호서대학교 디지털기술경영학과 3학년애 재학 중이며,<br>
+<p class="gray">
+    현재 호서대학교 디지털기술경영학과 3학년에 재학 중이며,<br>
 <b>디지털콘텐츠</b>와 <b>마케팅</b>, <b>웹프로그래밍</b>에 관심이 많습니다.<br>
 원래 고향은 <b>제주도</b>이지만, 현재는 학교생활로 인하여 <b>천안</b>에 거주 중입니다.
 </p>
@@ -24,23 +36,31 @@
 <h2>
     Academic
 </h2>
+<table>
+    <tr>  <th>출신학교</th> <th>전공</th> <th>기간</th> <th>졸업 상황</th> </tr>
+<tr>
+    <td><img src="남녕고.png" width="50"> <br><a href="https://namnyeong.jje.hs.kr/namnyeong" target="_blank">남녕고등학교</a></td> <td></td> <td>2015.03~2018.01</td> <td>졸업</td>
+</tr>
+<tr>
+    <td><img src="호서대.png" width="60"> <br><a href="http://www.hoseo.ac.kr/Home/Main.mbz" target="_blank">호서대학교</a></td> <td>디지털기술경영학과</td> <td>2021.03~</td> <td>졸업예정</td>
+</tr>
+</table>
 
-<a href="https://namnyeong.jje.hs.kr/namnyeong" target="_blank"><img src="남녕고.png" width="50"></a> 남녕고등학교 졸업<br>
-<a href="http://www.hoseo.ac.kr/Home/Main.mbz" target="_blank"><img src="호서대.png" width="60"></a> 호서대학교 디지털기술경영학과 재학중
+
 
 <h2>
     Skills
 </h2>
 <ul>
-    <li>자격증</li>
+    <li class="bold">자격증</li>
     <ul>
-        <li>유통관리사 3급</li>
+        <li >유통관리사 3급</li>
         <li>워드프로세서 2급 ・ 3급</li>
         <li>GTQ(그래픽기술자격) 2급</li>
     </ul>
 </ul>
 <ul>
-    <li>사용 툴</li>
+    <li class="bold">사용 툴</li>
     <ul>
         <li>Photoshop(2~3years)</li>
         <li>Premiere Pro(현재 공부 중)</li>
@@ -48,7 +68,7 @@
     </ul>
 </ul>
 <ul>
-    <li>사용 언어</li>
+    <li class="bold">사용 언어</li>
     <ul>
         <li>HTML(현재 공부 중)</li>
         <li>CSS(현재 공부 중)</li>
