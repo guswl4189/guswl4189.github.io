@@ -3,8 +3,55 @@
 <head>
 <meta charset='utf-8'>
 <style>
+*{padding: 0px;
+margin: 0px;}
+
+body{background-image: url(img/flower.jpeg);}
+
+th{background-color: rgb(253, 221, 216);
+font-weight: bolder;
+font-size: large;}
+
+header{width: 1200px; height: 150px;
+margin: 10px 110px 10px 110px;}
+header hr{height: 3px;
+	width: 600px;
+margin-left: 320px;
+border: 0 none;
+background-color: rgb(243, 133, 93);}
+li{list-style-type: none;}
+
+header nav{ margin: 18px 110px 10px 140px;
+height: 50px; width: 1200;
+}
+#h_menu{
+font-size: 24px;
+font-weight: bold;
+color: rgb(243, 133, 93);}
+#h_menu li{display: inline;
+margin: 10px;
+}
+#h_menu a:link{text-decoration: none; color: rgb(243, 133, 93);}
+
+#h_menu a:visited{text-decoration: none; color:rgb(243, 133, 93);}
+
+#h_menu a:hover{text-decoration: underline; color: rgb(231, 87, 35);
+	}
+
+section{width: 790px;
+margin: 10px 20px 10px 110px;
+height: 820px;
+padding: 10px;
+float: left;}
+
+aside{width: 370px;
+height:837px;
+float: left;
+margin:10px 10px 10px 0px
+}
+
 table, th, tr, td {
-	border: solid 2px black;
+	border: solid 2px rgb(218, 147, 162);
 	border-collapse: collapse;
 	padding: 8px;
 	text-align: center;
@@ -13,7 +60,8 @@ table, th, tr, td {
 }
 table{
 	float: right;
-	margin-right: 150px;
+	margin: 10px 20px 10px 20px;
+	background-color: rgb(255, 250, 254);
 }
 th, td{
 	width: 100px;
@@ -22,149 +70,230 @@ tr{
 	height: 70px;
 }
 body {text-align: center;}
-#title1{text-shadow: 3px 3px 5px gray;
-}
+#title1{text-shadow: 3px 3px 5px rgb(185, 185, 185);
+font-size: 30px;
+font-weight: bold;
+color: rgb(243, 133, 93);
+padding: 10px;}
+
 span {font-size: 11px;
 color: gray;
+
 }
 li{list-style-type: none;}
 
 #v_menu{
-	float: right;
 	font-weight: bold;
 	font-size: 20px;
-	color: rgb(17, 17, 17);
-	margin: 20px;
+	color: rgb(238, 115, 70);
+	margin-top: 100px;
+	margin-left: 50px;
+	text-align: center;
 }
 #v_menu li{
 display: block;
-border-bottom: dotted 2px rgb(0, 0, 0);
-padding: 5px;
+border-bottom: dotted 2px rgb(238, 115, 70);
+padding: 10px;
+width: 190px;
 
 }
-a:link{text-decoration: none; color: rgb(17, 17, 17);}
+#v_menu a:link{text-decoration: none; color: rgb(236, 91, 38);}
 
-a:visited{text-decoration: none; color:rgb(17, 17, 17);}
+#v_menu a:visited{text-decoration: none; color:rgb(236, 91, 38);}
 
-a:hover{text-decoration: none; color: rgb(252, 205, 52);}
+#v_menu a:hover{text-decoration: none; color: rgb(224, 61, 2);}
+
+footer{clear: both;
+	width: 1200px;
+	height: 100px;
+	margin: 10px 110px 10px 110px;}
+
+#f_menu{font-size: 14px;
+color: rgb(211, 89, 45);
+margin: 20px 30px 20px 30px;}
+
+#f_menu li{display: inline;
+margin: 10px;
+font-size: 14px;}
+
+#hw{display: block;
+border-radius: 5px ;
+background-color:rgb(247, 151, 117) ;
+color: rgb(209, 81, 34);
+width: 190px;
+margin-left: 7px;
+margin-bottom: 10px;}
+
+
+
+</style>
+
+
 </style>
 </head>
 <body>
-<h2 id="title1">2021년 1학기 시간표 _ 20193154 김현지</h2>
-<ul id="v_menu">
-	<li><a href="회원가입.html" target="blank">[회원가입]</a></li>
-	<li><a href="rubato.html" target="blank">[루바토 펜션 안내]</a></li>
-	<li><a href="호서행사안내.html" >[호서 행사 안내]</a></li>
-	<li><a href="호서야간개장.html">[호서 야간 개장]</a></li>
-	<li><a href="sale.html">[세일 안내장]</a></li>
-	<li><a href="monthly.html">[월간일정표]</a></li>
-	<li><a href="list.html">[판매 신발 목록]</a></li>
-	</ul>
-
-<table>
-
-	<tr>
-		<th></th>
-		<th>월</th>
-		<th>화</th>
-		<th>수</th>
-		<th>목</th> 
-		<th>금</th> 
-	</tr>
+<header>
+	<div id="title1">
+		<h2 >2021년 1학기</h2>
+	</div>
 	
-	<tr> 
-		<th>0교시<br>08:30~09:20</th>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>  
-		<td></td> 
-	</tr>
+	<hr>
+	<nav>
+		<ul id="h_menu">
+			<li><a href="https://learn.hoseo.ac.kr/" target="_blank">LMS</a></li>
+			<li>|</li>
+			<li><a href="http://www.hoseo.ac.kr/Home/Main.mbz" target="_blank">호서대학교 홈페이지</a></li>
+			<li>|</li>
+			<li><a href="http://www.hoseo.ac.kr/Home/SCDList.mbz?action=MAPP_1708250140&schClassify=%ED%95%99%EB%B6%80" 
+				target="_blank">학사일정</a></li>
+			<li>|</li>
+			<li><a href="https://portal.hoseo.edu/saml/Auth.do" target="_blank">종합정보시스템</a></li>
+		</ul>
+	</nav>
+</header>
 
-	<tr>
-		<th>1교시<br>09:30~10:20</th>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td style="background-color: rgb(232, 255, 232);">웹프로그래밍<br> <span>1호관210</span></td>  
-		<td></td> 
-	</tr>
 
-	<tr>
-		<th>2교시<br>10:30~11:20</th> 
-		<td rowspan="2" style="background-color: rgb(232, 255, 232);">웹프로그래밍<br> <span>1호관210</span></td>
-		<td></td>
-		<td rowspan="3" style="background-color: rgb(255, 235, 245);">시장조사론<br> <span>1호관210</span></td>
-		<td rowspan="3" style="background-color: rgb(255, 252, 224);">기술계획과<br> 가치평가<br> <span>1호관202-e</span></td>
-		<td></td> 
-	</tr>
 
-	<tr>
-		<th>3교시<br>11:30~12:20</th>
-		<td></td>
-		<td></td>
+<section>
+	<table>
+
+		<tr>
+			<th></th>
+			<th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th> 
+			<th>금</th> 
+		</tr>
 		
-		  
-		 
-	</tr>
+		<tr> 
+			<th>0교시<br>08:30~09:20</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>  
+			<td></td> 
+		</tr>
+	
+		<tr>
+			<th>1교시<br>09:30~10:20</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td style="background-color: rgb(232, 255, 232);">웹프로그래밍<br> <span>1호관210</span></td>  
+			<td></td> 
+		</tr>
+	
+		<tr>
+			<th>2교시<br>10:30~11:20</th> 
+			<td rowspan="2" style="background-color: rgb(232, 255, 232);">웹프로그래밍<br> <span>1호관210</span></td>
+			<td></td>
+			<td rowspan="3" style="background-color: rgb(255, 235, 245);">시장조사론<br> <span>1호관210</span></td>
+			<td rowspan="3" style="background-color: rgb(255, 252, 224);">기술계획과<br> 가치평가<br> <span>1호관202-e</span></td>
+			<td></td> 
+		</tr>
+	
+		<tr>
+			<th>3교시<br>11:30~12:20</th>
+			<td></td>
+			<td></td>
+			
+			  
+			 
+		</tr>
+	
+		<tr>
+			<th>4교시<br>12:30~13:20</th>
+			<td></td>
+			<td rowspan="3" style="background-color: rgb(255, 204, 204);">데이터베이스<br>설계및개발<br><span>1호관209</span></td>
+			<td></td>
+			 
+			 
+		</tr>
+	
+		<tr>
+			<th>5교시<br>13:30~14:20</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td style="background-color: rgb(197, 197, 197);">채플<br> <span>대강당301</span></td>  
+			 
+		</tr>
+	
+		<tr>
+			<th>6교시<br>14:30~15:20</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>  
+			
+		</tr>
+	
+		<tr>
+			<th>7교시<br>15:30~16:20</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td rowspan="2" style="background-color: rgb(229, 228, 255);">미의 역사저널<br><span>3호관101-e</span></td>  
+			<td></td> 
+		</tr>
+	
+		<tr>
+			<th>8교시<br>16:30~17:20</th>
+			<td></td>
+			<td rowspan="2" style="background-color: rgb(238, 212, 255);">예비부모교육<br> <span>3호관102-e</span></td>
+			<td></td>
+			<td></td>  
+			
+		</tr>
+	
+		<tr>
+			<th>9교시<br>17:30~18:20</th>
+			<td style="background-color: rgb(255, 222, 173);">사회봉사의 <br>이해<br><span>대강당301</span></td>
+			<td></td>
+			<td style="background-color: rgb(219, 247, 255);">전공과<br> 진로탐색<br><span>벤교301</span></td>
+			<td></td>  
+			
+		</tr>
+	
+	</table>
+	
+</section>
 
-	<tr>
-		<th>4교시<br>12:30~13:20</th>
-		<td></td>
-		<td rowspan="3" style="background-color: rgb(255, 204, 204);">데이터베이스<br>설계및개발<br><span>1호관209</span></td>
-		<td></td>
-		 
-		 
-	</tr>
+<aside>
+	<div id="v_menu">
+		<div id="hw">
+			<h3>과제</h3>
+		</div>
+		<ul >
+			<li><a href="회원가입.html" target="blank">[회원가입]</a></li>
+			<li><a href="rubato.html" target="blank">[루바토 펜션 안내]</a></li>
+			<li><a href="호서행사안내.html" >[호서 행사 안내]</a></li>
+			<li><a href="호서야간개장.html">[호서 야간 개장]</a></li>
+			<li><a href="sale.html">[세일 안내장]</a></li>
+			<li><a href="monthly.html">[월간일정표]</a></li>
+			<li><a href="list.html">[판매 신발 목록]</a></li>
+			</ul>
+	</div>
+	
+</aside>
 
-	<tr>
-		<th>5교시<br>13:30~14:20</th>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td style="background-color: rgb(197, 197, 197);">채플<br> <span>대강당301</span></td>  
-		 
-	</tr>
-
-	<tr>
-		<th>6교시<br>14:30~15:20</th>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>  
-		
-	</tr>
-
-	<tr>
-		<th>7교시<br>15:30~16:20</th>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="2" style="background-color: rgb(229, 228, 255);">미의 역사저널<br><span>3호관101-e</span></td>  
-		<td></td> 
-	</tr>
-
-	<tr>
-		<th>8교시<br>16:30~17:20</th>
-		<td></td>
-		<td rowspan="2" style="background-color: rgb(238, 212, 255);">예비부모교육<br> <span>3호관102-e</span></td>
-		<td></td>
-		<td></td>  
-		
-	</tr>
-
-	<tr>
-		<th>9교시<br>17:30~18:20</th>
-		<td style="background-color: rgb(255, 222, 173);">사회봉사의 <br>이해<br><span>대강당301</span></td>
-		<td></td>
-		<td style="background-color: rgb(219, 247, 255);">전공과<br> 진로탐색<br><span>벤교301</span></td>
-		<td></td>  
-		
-	</tr>
-
-</table>
-
-
+<footer>
+	<div id="f_menu">
+		<ul>
+			<li>호서대학교</li>
+			<li>|</li>
+			<li>디지털기술경영학과</li>
+			<li>|</li>
+			<li>김현지</li>
+			<br>
+			<li>전화 : 123-123-1234</li>
+			<li>|</li>
+			<li>천안시 서북구 두정동</li>
+		</ul>
+		Copyright by Kim Hyeonji All Right Reserved.
+	</div>
+</footer>
 
 
 
